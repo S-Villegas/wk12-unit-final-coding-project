@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <neta charset = "UTF-8">
+    <neta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Week 12 Project</title>
+      
+      <!--This is link to bootstrap-->
+      <link rel="stylessheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!--DELETE THIS MESSAGE LATER- installed properly?:JQuery, AJAX-- need AXIO -->
+ 
+  <!--This is a Form-->
+  <div class="container">
+  <h1> Current Employer Info Form </h1>
+  <form>
+    <div class="form-group">
+      <label for="company">Company</label>
+      <input id="company" class="form-control" type="text" name="company" placeholder="Enter your current Company"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="hiredate">Hire Date</label>
+      <input id="hiredata" class="form-control" type="text" name="hiredate" placeholder="Enter your Date of Hire"><br><br><br>
+    </div>
+    <button class="btn btn-primary" type="Submit" id="button">Submit</button>
+  </form>
+</div>
+
+<!--This is to show our Data-->
+<div class="container">
+  <table id="whole-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Company</th> <br>
+        <th>Date of Hire</th><br>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+  </table>
+
+</div>
+
+<!-- Thi is link to jquery & js-->
+<script src="/node_modules/JQuery/dist/JQuery.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
